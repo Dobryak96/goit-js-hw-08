@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background: #ffffff;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    max-width: 1128px;
+    height: 648px;
+    margin: 0 auto;
+    padding: 140px;
+    gap: 24px;
+}
+
+.gallery-image {
+    display: block;
+    width: 360px;
+    height: 200px;
+}
